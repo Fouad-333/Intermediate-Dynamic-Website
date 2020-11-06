@@ -1,0 +1,314 @@
+/*
+filename: [style.css]
+author: [Fouad Nazir Ahmad Saleemi]
+created: [30/03/2020]
+last modified: [05/04/2020]
+description: [It refers to index.html, product.html, enquire.html and about.html. This file will
+               be use to style the html pages]
+*/
+
+*{    /* It makes the margin of all elements zero. It has reduced the work to set the margin to zero individually*/
+	
+	margin:0px;     
+}
+
+header{     /* It sets the width of the header in all the Html pages as 100% to fit the whole page.*/
+	width:100%;    
+}
+
+#heading1{     /* It sets heading 1 attributes. All the basic attributes are defined for heading 1.*/
+	height:60px;
+	padding:10px;
+	display: block;
+    font-size: 4em;
+	font-family:Arial;
+	font-variant:small-caps;
+	background-color:black;
+	text-align:center;
+	color:white;
+
+}
+
+nav{  /* Basically, the overflow of the navigation is being set to auto to remove the affect of the overflowing.*/
+	
+		
+	background-color:black;
+	overflow:auto;
+	
+}
+
+.backgroundpic{  /* The background image of index.html' body is being set. To stop repetitio of pic I set it to none and to cover the whole page I set the size to cover.*/
+	background-image:url("images/gym.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+}
+
+.menu ul{     /* It defines attributes for all navigation ul. It sets the width to 100% to fit the page. The style set to none to remove the bullet points of list items..*/
+	width:100%;
+	list-style:none;
+	padding:0
+	
+}
+.menu li{   /* It defines attributes for all navigation ul. It sets the width to 24.85% to keep an appropriate distance between list items. I set to float left so list items can keep in line from left to right.*/
+	border: 1px solid white;
+	float:left;
+	width:19.85%;
+	
+}
+.menu a{   /*It defines attributes for all navigation links. To remove underscore line of links, I set text-decoration to none.*/
+	font-size: 20px;
+	border-bottom: 6px solid red;
+	color:white;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding: 20px;
+	
+	
+}
+.menu a:hover{    /* It turns the link color to silver when we move mouse on any link.*/
+	background-color:silver;
+}
+
+
+
+#timeout{
+	
+	width: 190px;
+	height: 60px;
+	font-size: 60px;
+	margin-top:60px;
+	
+}
+
+
+#personaldetails{   /* It defines dimensions of the enquiry form of the enquire page. I set width to 50% so it can look like a form. I set margin-left to 25% so it can move to the middle of the page.*/
+	width:50%;
+    margin-left:25%;
+   
+	
+}
+#producttypes{   /*It defines dimensions of the second section of the product page. I set the basic parameters.*/
+	
+	width:50%;
+    margin-left:25%;
+	font-size:17px;
+}
+#paymentdetails{   /*It defines dimensions of the fifth section of the product page. I set the basic parameters.*/
+	width:50%;
+    margin-left:25%;
+	font-size:17px;
+	
+	
+
+}
+
+#paymenttypes{   /*It defines dimensions of the fifth section of the product page. I set the basic parameters.*/
+	width:50%;
+    margin-left:25%;
+	font-size:17px;
+	
+	
+
+}
+
+
+
+#facilities{    /*It defines dimensions of the third section of the product page. I set the basic parameters.*/
+	width:50%;
+    margin-left:25%;
+	font-size:17px;
+	
+	
+
+}
+
+#fees{    /*It defines dimensions of the fourh section of the product page. I set the basic parameters.*/
+	width:50%;
+    margin-left:25%;
+	font-size:17px;
+	
+	
+
+}
+#card{    /*It's the first aside of the product page related to membership types. I have set the dimensions of the border and set float to right so it can move to the right side. */
+    margin:0;
+	padding:5px;
+	width:20%;
+	float:right;
+	border: 2px solid purple;
+}
+
+
+#note{    /*It's the second aside in the producttypes section of the product page. I set position to relative and defined right and top to move the text to the left side to make it seperate.*/
+	position:relative;
+	right:370px;
+	top: 200px;
+	color: purple;
+	font-size:17px;
+	width:40%;
+	border: 2px solid purple;
+	padding:10px;
+}
+
+
+#platinum{   /*It defines parameters of the images in the aside 1 of the product page.*/
+	margin:0;
+	padding:0;
+    width:270px;
+	height: 200px;
+	
+}
+#silver{    /*It defines parameters of the images in the aside 1 of the product page.*/
+	margin:0;
+	padding:0;
+	width:270px;
+	height: 200px;
+	
+}
+#gold{    /*It defines parameters of the images in the aside 1 of the product page.*/
+	margin:0;
+	padding:0;
+	width:270px;
+	height: 200px;
+	
+}
+
+
+
+#productenquiry{   /*It's the heading 2 of the enquire page. I alinged the text to center to move it to center of the page.*/
+	
+	text-align:center;
+  
+	
+	padding:30px;
+
+	font-size:25px;
+}
+
+#paymentenquiry{   /*It's the heading 2 of the payment page. I alinged the text to center to move it to center of the page.*/
+	
+	text-align:center;
+  
+	
+	padding:30px;
+
+	font-size:25px;
+}
+
+
+
+#membership{     /*It's the heading 2 of the product page. I set the margin-top to -90px to set an appropiate distance of it from top.*/
+	
+	margin-top:-90px;
+}
+
+#table th {    /*It defines the table heading parameters of the table of the product page. */
+	text-align:center;
+	border: 1px solid white;
+	background-color: #3a6070;
+	color:white;
+	padding:10px;
+}
+
+#table td{    /*It defines the table data parameters of the table of the product page. */
+	text-align:center;
+	border: 1px solid #e3e3e3;
+	padding:10px;
+}
+
+#timetable th{    /*It defines the table heading parameters of the table of the enquire page. */
+	text-align:center;
+	border: 1px solid white;
+	background-color: #3a6070;
+	color:white;
+	padding:10px;
+}
+
+#timetable td{    /*It defines the table data parameters of the table of the enquire page. */
+	
+	text-align:center;
+	border: 1px solid #5499C7;
+	background-color:#ECF0F1;
+	padding:10px;
+}
+
+.infoaboutme{     /*It defines the attributes of the second and third section of the enquire page. I set margin-left to 15% and margin-top to 4% to give an apprpiate distance between definition list items. */
+	margin-left:15%;
+	margin-top:4%;
+}
+
+dl{     /*It defines the dimension of the definition list of the enquire page. */
+	width:30%;
+	overflow:hidden;
+	padding:0;
+	
+	
+	
+}
+
+
+#fig dt,dd{     /*It defines the section 1 of the enquire page. I set float to left and margin-top to 5px so the definition list can be displayed in right format without overiding with the other list elements.*/
+	float:left;
+	width:15%;
+	padding:0;
+	margin-top:5px;
+}
+
+
+#mypic{     /*It defines the figure of the fisrt section of the enquire page. I set  float to right , position to relative and right to 200px so I can move pic on the top of the definition list.*/
+	float:right;
+	border: 3px double  #3a6070 ;
+	padding:20px;
+	position:relative;
+	right:200px;
+	
+
+	
+	
+}
+ #list {     /*It moves the definition list of the enquir epage to the bottom of the #mypic.*/
+	 position:relative;
+	 left:1000px;
+	 top:260px;
+	 display:inline;
+	
+ }
+ 
+ #info{  /*It's the heading 3 of the section 2 of the enquire page. It defined parameters move the titile on the top of the information paragraph.*/
+	 position:relative;
+	 right:225px;
+ }
+
+.facilitiespics{    /*It defines parameters of the section 3 of the product page. */
+	width:100%;
+	height:300px;
+}
+
+footer{     /*It sets the parametrs for the footer of all Html pages. */
+	margin-top:50%;
+    background-color:black;
+	padding:10px;
+	text-align:center;
+	color:white;
+	font-size:15px;
+
+}
+
+
+
+
+
+ #note p {   /*It defines the parameters of the section 2 of the product page. It text will blink
+                             after every 4 secs. It will blink infinite by setting iteration to infinite.*/
+     
+	animation-duration: 4000ms;
+	animation-name: blink;
+	animation-iteration-count: infinite;
+    }
+	  
+@keyframes blink{    /*It's use for animation. We refer the declaration to the CSS ruleset.*/
+    from{ opacity: 1;}
+    to{ opacity : 0;}
+	}
